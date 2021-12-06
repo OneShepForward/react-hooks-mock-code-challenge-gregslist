@@ -1,6 +1,12 @@
 {
   "listings": [
     {
+      "id": 1,
+      "description": "heater",
+      "image": "./images/heater.jpg",
+      "location": "BROOKLYN"
+    },
+    {
       "id": 2,
       "description": "2019 Toyota Tacoma grill",
       "image": "./images/toyota-grill.jpg",
@@ -35,12 +41,6 @@
       "description": "Treadmill Parts For Free",
       "image": "./images/treadmill.jpg",
       "location": "East Flatbush"
-    },
-    {
-      "description": "Long Furby",
-      "image": "https://static2.thetalkoimages.com/wordpress/wp-content/uploads/2020/06/long-furby-again.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5",
-      "location": "Houston",
-      "id": 8
     }
   ]
 }

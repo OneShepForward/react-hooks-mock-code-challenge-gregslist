@@ -1,7 +1,8 @@
 import React from "react";
+import AddListing from "./AddItem";
 import Search from "./Search";
 
-function Header() {
+function Header( { onSearch, onAddListing } ) {
   return (
     <header>
       <h1>
@@ -10,7 +11,9 @@ function Header() {
         </span>
         gregslist
       </h1>
-      <Search />
+      <Search onSearch={onSearch} />
+      <br/>
+      <AddListing onAddListing={onAddListing} />
     </header>
   );
 }
